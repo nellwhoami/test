@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "t00ls.net",
+        "t00ls.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "t00ls"
+      ]
+    }
+  ]
+}
