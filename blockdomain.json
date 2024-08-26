@@ -3,21 +3,20 @@
   "rules": [
     {
       "domain_suffix": [
-        "360.cn",
-        "360.com",
-        "360safe.com",
-        "qhimg.com",
-        "360totalsecurity.com",
-        "tp-link.com",
-        "tp-link.com.cn",
-        "tplinkcloud.com",
-        "tplinkcloud.com.cn",
-        "jiguang.cn",
-        "jpush.cn",
-        "jpush.io",
-        "jpush.com",
-        "jiguang.io",
-        "umeng.com"
+        ".360.cn",
+        ".360.com",
+        ".360safe.com",
+        ".360totalsecurity.com",
+        ".tp-link.com",
+        ".tp-link.com.cn",
+        ".tplinkcloud.com",
+        ".tplinkcloud.com.cn",
+        ".jiguang.cn",
+        ".jpush.cn",
+        ".jpush.io",
+        ".jpush.com",
+        ".jiguang.io",
+        ".umeng.com"
       ]
     },
     {
