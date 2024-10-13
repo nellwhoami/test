@@ -11,12 +11,14 @@
         ".gov.tw",
         ".moomoo.com",
         "collect.moomoo.com",
-        "api.moomoo.com"
+        "api.moomoo.com",
+        ".chippercash.com,"        
       ]
     },
     {
       "domain_keyword": [
-        "t00ls"
+        "t00ls",
+        "chipper"
       ]
     },
     {
