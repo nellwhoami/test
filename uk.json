@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        ".trading212.com",
+        "app.trading212.com"     
+      ]
+    },
+    {
+      "domain_keyword": [
+        "trading212"
+      ]
+    },
+    {
+      "ip_cidr": [
+        
+      ]
+    }
+  ]
+}
