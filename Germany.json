@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "app.n26.com",
+        "n26.com",
+        ".n26.com",
+        "coinbase.com",
+        ".coinbase.com",
+        "sessions.coinbase.com",
+        "translations.coinbase.com",
+        "ctf-images-01.coinbasecdn.net",
+        ".coinbasecdn.net",
+        "coinbasecdn.net"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "coinbase",
+        "n26"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "104.18.35.0/24",
+        "172.64.152.0/24"
+      ]
+    }
+  ]
+}
