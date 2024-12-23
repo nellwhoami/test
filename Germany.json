@@ -9,7 +9,13 @@
         "sessions.coinbase.com",
         "translations.coinbase.com",
         "ctf-images-01.coinbasecdn.net",
-        ".coinbasecdn.net",
+        ".coinbasecdn.net"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "n26",
+        "coinbase"
       ]
     }
   ]
