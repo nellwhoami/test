@@ -8,6 +8,15 @@
         ".nexo.com",
         "www.nexo.com",
         "platform.nexo.com",
+        "prime.nexo.com",
+        "pro.nexo.com",
+        "1d1217.nexo.com",
+        "pro-mobile-gateway.nexo.com",
+        "static.nexo.com",
+        "support.nexo.com",
+        "wallet.nexo.com",
+        "content.nexo.com",
+        "view.nexo.com",
         "nexo.com"
       ]
     },
@@ -15,6 +24,12 @@
       "domain_keyword": [
         "nexo",
         "nexoio"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "104.18.20.163",
+        "104.18.21.163"
       ]
     }
   ]
