@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "nexoio.my.site.com",
+        "nexoio.my.salesforce-scrt.com",
+        ".nexo.com",
+        "www.nexo.com",
+        "platform.nexo.com",
+        "nexo.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "nexo",
+        "nexoio"
+      ]
+    }
+  ]
+}
