@@ -3,16 +3,13 @@
   "rules": [
     {
       "domain_suffix": [
-        "n26.com",
-        "app.n26.com",
         ".n26.com",
-        "coinbase.com",
+        "app.n26.com",
         ".coinbase.com",
         "sessions.coinbase.com",
         "translations.coinbase.com",
         "ctf-images-01.coinbasecdn.net",
         ".coinbasecdn.net",
-        "coinbasecdn.net"
       ]
     }
   ]
