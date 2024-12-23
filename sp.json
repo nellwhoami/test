@@ -3,10 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        ".nexo.com",
         "nexoio.my.site.com",
         "nexoio.my.salesforce-scrt.com",
-        ".nexo.com",
-        "nexo.com",
         "www.nexo.com",
         "platform.nexo.com",
         "prime.nexo.com",
@@ -22,7 +21,8 @@
     },
     {
       "domain_keyword": [
-        "nexo"
+        "nexo",
+        "nexoio"
       ]
     },
     {
