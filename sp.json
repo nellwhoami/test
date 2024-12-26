@@ -16,13 +16,22 @@
         "support.nexo.com",
         "wallet.nexo.com",
         "content.nexo.com",
-        "view.nexo.com"
+        "view.nexo.com",
+        ".binance.com",
+        "stream.binance.com",
+        "nbstream.binance.com",
+        "accounts.binance.com",
+        "binanceapi.com",
+        "bin.bnbstatic.com",
+        ".bnbstatic.com",
+        "public.bnbstatic.com"
       ]
     },
     {
       "domain_keyword": [
         "nexo",
-        "nexoio"
+        "nexoio",
+        "binance"
       ]
     },
     {
