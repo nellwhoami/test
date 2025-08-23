@@ -1107,7 +1107,7 @@ PS：这个工具的产生是因为目标不知道做了什么奇葩限制，导
 
 2.能在目标设备开启cdp：
 
---remote-debugging-port=9222 --user-data-dir="C:\Users\<user>\AppData\Local\Microsoft\Edge\User Data"
+--remote-debugging-port=9222 --user-data-dir="C:\Users\<user>\AppData\Local\Microsoft\Edge\User Data" --disable-web-security --remote-allow-origins
 目标设备找一下指定浏览器快捷方式：
 
 for /r C:\ %i in ("Microsoft Edge.lnk") do @if exist "%i" echo %i
