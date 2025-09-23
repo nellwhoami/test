@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "rules": [{
+      "domain_suffix": [
+        "gspe1-ssl.ls.apple.com",
+        "epdg.epc.mnc015.mcc234.pub.3gppnetwork.org",
+        "ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org",
+        "ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org",
+        "epdg.epc.mnc010.mcc234.pub.3gppnetwork.org",
+        "entsrv-uk.vodafone.com",
+        "vuk-gto.prod.ondemandconnectivity.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "88.82.0.0/19",
+        "46.68.0.0/17",
+        "87.194.0.0/16"
+      ]
+    }
+  ]
+}
