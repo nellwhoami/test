@@ -1,0 +1,41 @@
+name: Convert JSON to SRS
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  convert-json-to-srs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install sing-box
+        run: |
+          wget https://github.com/SagerNet/sing-box/releases/download/v1.12.13/sing-box-1.12.13-linux-amd64.tar.gz
+          tar -xzf sing-box-1.12.13-linux-amd64.tar.gz
+          sudo mv sing-box-1.12.13-linux-amd64/sing-box /usr/local/bin/
+          rm -rf sing-box-linux-amd64*
+
+      - name: Convert JSON to SRS
+        run: |
+          find . -type f -name "*.json" ! -name "config.json" | while read -r json_file; do
+            filename=$(basename "$json_file" .json)
+            sing-box rule-set compile --output "${filename}.srs" "$json_file"
+          done
+
+      - name: Commit SRS files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.srs
+          git commit -m "Add compiled .srs files" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
