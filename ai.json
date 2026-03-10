@@ -9,9 +9,10 @@
         "cursor-cdn.com",
         "cursorapi.com",
         "elevenlabs.io",
-        "marketplace.cursorapi.com",
         "download.todesktop.com",
-        "workos.com"
+        "workos.com",
+	"anysphere-binaries.s3.us-east-1.amazonaws.com",
+	"nexus-websocket-a.intercom.io"
       ]
     },
     {
