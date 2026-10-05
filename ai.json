@@ -11,8 +11,16 @@
         "elevenlabs.io",
         "download.todesktop.com",
         "workos.com",
-	"anysphere-binaries.s3.us-east-1.amazonaws.com",
-	"nexus-websocket-a.intercom.io"
+		"anysphere-binaries.s3.us-east-1.amazonaws.com",
+		"muse.ai",
+		"meta.ai",
+		"auth.meta.com",
+		"meta.com",
+		"facebook.com",
+		"fbcdn.net",
+		"ep7.facebook.com",
+		"metaaivm.com",
+		"nexus-websocket-a.intercom.io"
       ]
     },
     {
